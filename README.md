@@ -23,5 +23,15 @@ For sentiment analysis on text data stored in a CSV file using NLTK’s VADER se
 - scikit-learn
 - matplotlib
 
+## Installation
+
+Install the required dependencies using pip:
+
+import nltk
+nltk.download('vader_lexicon')
+nltk.download('punkt')
+nltk.download('stopwords')
+
+
 
 
